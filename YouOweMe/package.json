@@ -17,7 +17,9 @@
     "devDependencies": {
         "@vue/cli-plugin-typescript": "^3.0.5",
         "@vue/cli-service": "^3.0.5",
+        "aspnet-webpack": "^3.0.0",
         "typescript": "^3.0.0",
-        "vue-template-compiler": "^2.5.17"
+        "vue-template-compiler": "^2.5.17",
+        "webpack-hot-middleware": "^2.24.3"
     }
 }
