@@ -11,6 +11,12 @@ namespace YouOweMe.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Test()
+        {
+            return Json(new int[] {1, 2, 3});
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
